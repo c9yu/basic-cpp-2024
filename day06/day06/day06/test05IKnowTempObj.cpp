@@ -35,8 +35,8 @@ int main(void) {
 	Temporary(200);
 	cout << " ********** after make!" << endl << endl;
 
-	const Temporary& ref = Temporary(300);                  // 임시객체는 참조가 불가능 한데, const를 붙여 상수화 시키면 참조(&)가 가능하게 한다.
-	cout << "********** end of main!" << endl << endl;
+	const Temporary& ref = Temporary(300);                  // 임시객체는 참조가 불가능 한데 (주소는 있으나 어디인지는 모름)
+	cout << "********** end of main!" << endl << endl;      // const를 붙여 상수화 시키면 참조(&)가 가능하게 한다.
 
 	return 0;
 }

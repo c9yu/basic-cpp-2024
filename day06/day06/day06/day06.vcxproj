@@ -133,6 +133,13 @@
     <ClCompile Include="test04ReturnCopycon.cpp" />
     <ClCompile Include="test05IKnowTempObj.cpp" />
     <ClCompile Include="test06ReturnObjDeaeTime.cpp" />
+    <ClCompile Include="test07ConstObject.cpp" />
+    <ClCompile Include="test08ConstOverloading.cpp" />
+    <ClCompile Include="test09MyFriendClass.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="test10MyFriendFunction.cpp" />
+    <ClCompile Include="test11CComStatic.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
