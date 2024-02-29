@@ -1,3 +1,5 @@
+/*
+
 #include <iostream>
 #include <cstring>
 
@@ -52,3 +54,4 @@ int main(void)
 	pman.state();
 	return 0;
 }
+*/
