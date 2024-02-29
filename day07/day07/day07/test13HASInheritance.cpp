@@ -15,6 +15,11 @@ public:
 	{
 		cout << "BBang!" << endl;
 		bullet--;
+
+	}
+	int getbullet() {
+		return bullet;
+
 	}
 };
 
@@ -26,6 +31,10 @@ public:
 	Police(int bnum, int bcuff)
 		: Gun(bnum), handcuffs(bcuff)
 	{}
+	void state() {
+		cout  << getbullet() << ", " << handcuffs << endl;
+	}
+
 	void PutHandcuff()
 	{
 		cout << "SNAP!" << endl;
@@ -33,10 +42,13 @@ public:
 	}
 };
 
+
 int main(void)
 {
 	Police pman(5, 3);
+	pman.state();
 	pman.Shot();
 	pman.PutHandcuff();
+	pman.state();
 	return 0;
 }
