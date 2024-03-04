@@ -136,6 +136,9 @@
     <ClCompile Include="test07Quiz.cpp" />
     <ClCompile Include="test08Vitrual01.cpp" />
     <ClCompile Include="test09Virtual02.cpp" />
+    <ClCompile Include="test10VirtualDistructor.cpp" />
+    <ClCompile Include="test11ReferenceAttribute.cpp" />
+    <ClCompile Include="test12RealObjUnder2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
