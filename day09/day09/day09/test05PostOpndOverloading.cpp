@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -12,18 +13,20 @@ public:
 	{
 		cout << '[' << xpos << ", " << ypos << ']' << endl;
 	}
-	Point& operator++() // 전위 증가
+	Point& operator++()                    // 전위 : 증가하고 던져준다. a = ++i (i 값을 증가시킨 뒤 a에 넣어준다.) 즉, a = i
 	{
 		xpos += 1;
 		ypos += 1;
-		return *this;
+		return *this;                      // 자기를 던져준다.
 
 	}
-	const Point operator++(int) // 후위 증가
-	{
-		const Point retobj(xpos, ypos);
+	const Point operator++(int)            // 후위 : 던져주고 증가한다. a = i++ (i 값을 a에 넣은 뒤 증가시켜준다.) 즉, a != i
+	{   // 1. 현재의 객체를 복사하여 현재의 속성값을 유지시킨다.
+		const Point retobj(xpos, ypos);    // const Point retobj(*this);
+	    // 2. 현재 객체의 속성값을 1씩 증가시킨다.
 		xpos += 1;
 		ypos += 1;
+		// 3. 증가 이전에 복사한 객체를 전달한다. 
 		return retobj;
 	}
 	friend Point& operator--(Point& ref);
@@ -58,3 +61,4 @@ int main(void)
 	pos.ShowPosition();
 	return 0;
 }
+*/
