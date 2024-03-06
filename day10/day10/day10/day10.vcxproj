@@ -136,6 +136,10 @@
     <ClCompile Include="test05.cpp" />
     <ClCompile Include="test06ArrayClass.cpp" />
     <ClCompile Include="test07NewDeleteOverloading.cpp" />
+    <ClCompile Include="test08PointerOperatorOverloading.cpp" />
+    <ClCompile Include="test09SmartPointer.cpp" />
+    <ClCompile Include="test10SmartP.cpp" />
+    <ClCompile Include="test11Functor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

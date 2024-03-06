@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -36,3 +37,4 @@ int main(void)
     delete ptr;
     return 0;
 }
+*/

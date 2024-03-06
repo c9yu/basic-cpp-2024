@@ -36,5 +36,17 @@
     <ClCompile Include="test07NewDeleteOverloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="test08PointerOperatorOverloading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test09SmartPointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test10SmartP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test11Functor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
