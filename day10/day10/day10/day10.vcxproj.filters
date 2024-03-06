@@ -48,5 +48,11 @@
     <ClCompile Include="test11Functor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="test12Quiz.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test13QuizAnswer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

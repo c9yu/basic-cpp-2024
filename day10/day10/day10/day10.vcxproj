@@ -140,6 +140,12 @@
     <ClCompile Include="test09SmartPointer.cpp" />
     <ClCompile Include="test10SmartP.cpp" />
     <ClCompile Include="test11Functor.cpp" />
+    <ClCompile Include="test12Quiz.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="test13QuizAnswer.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
