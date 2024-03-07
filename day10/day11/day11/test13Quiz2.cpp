@@ -1,8 +1,10 @@
+
 /*
 5명의 이름과 국,영,수 3과목을 입력받아 학생별 총점과 평균, 그리고 과목별 총점과 평균을 구하시오.
 1) 객체 포인터 배열 사용
 2) 객체 배열 사용 -> 이걸로 하겠다!
 */
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <vector>
@@ -21,8 +23,9 @@ public:
         kor = 0;
         mat = 0;
         eng = 0;*/
-        cout << "디폴트 생성자 호출" << endl;
-    }
+    //    cout << "디폴트 생성자 호출" << endl;
+   // }
+    
     // 생성자가 필요없다 왜냐?! 객체 배열 생성하자마자 디폴트 생성자 호출하니까! 얘는 쓰일 일이 없지 우린 받은 입력값으로 객체의 값을 초기화해줘야하니까!
     /*Grade(const char* myname, int mykor, int myeng, int mymat)
     {
@@ -32,6 +35,7 @@ public:
        eng = myeng;
        mat = mymat;
     }*/
+/*
     void AddStudent(char* myname, int mykor, int myeng, int mymat)
     {
         name = myname;
@@ -126,3 +130,4 @@ int main(void)
     }
     return 0;
 }
+*/
